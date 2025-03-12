@@ -1,0 +1,102 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Aaron Creor}
+\address{github.com/AaronCreor \linebreak linkedin.com/in/aaroncreor/}
+\contacts{(604) 217-2514 \linebreak aaron@aaroncreor.com}
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Programmer 2}{Jim Pattison Food Group}{December 2023 - Present}		
+			\begin{itemize}
+				\item Streamlined the SDLC for developers by implementing an updated \textbf{CI/CD} system with GitHub Actions.
+				\item Acted as an SME for integrating modernized supply chain infrastructure with legacy systems.
+				\item Mentored and trained junior programmers, instilling best practices and positive habits.
+
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Programmer 1}{Jim Pattison Food Group}{May 2022 -- December 2023}	
+			\begin{itemize}
+				\item Developed \textbf{SOAP} services to automate common fixes, significantly reducing time spent on recurring issues.
+				\item Addressed regular production bugs and improvements in existing Java services using \textbf{Jira} to prioritize requirements.
+				\item Upgraded security libraries for legacy \textbf{C\#} applications to streamline password reset processes, transitioning from direct \textbf{LDAP} integration to \textbf{AD}.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{M.S. in Computer Science}{University of Texas at Austin}{Fall 2024 -- Spring 2027}
+			\begin{itemize}
+				\item Graduate Coursework: Machine Learning; Mobile Development; Deep Learning; Advanced Linear Algebra.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{B.S. in Computer Science}{University of the Fraser Valley}{Fall 2017 -- Spring 2022}
+			\begin{itemize}
+				\item Undergraduate Coursework: Operating Systems; Databases; Algorithms; Data Structures; Networks.
+				\item UFV Student Computing Association Vice President (2021 – 2022)
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Projects}
+		\begin{cvsubsection}{Stock Market Showdown}{}{}
+		\texttt{github.com/AaronCreor/StockMarketShowdown}
+			\begin{itemize}
+				\item Developed a stock market simulation game in \textbf{Kotlin}, allowing users to buy and sell stocks in real time.
+				\item Leveraged \textbf{MySQL} databased hosted in \textbf{AWS}, with a robust schema to manage user data, transactions, and portfolios.
+				\item Utilized various third party APIs such as Finnhub to aquire real time market updates.
+				\item Integrated real-time stock market data visualization using the \textbf{Charts.kt} library.
+				\item Implemented user authentication and management with \textbf{Firebase}, enabling secure login, registration, and session management.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{CFIA Compliance Project}{}{}
+			\begin{itemize}
+				\item Led enhancement of existing Jim Pattison Food Group proprietary systems to come into compliance with new CFIA (Canada Food Inspection Agency) regulations.
+				\item Implemented changes across multiple systems including a \textbf{C\#} web frontend, \textbf{Java} application server backend, and a \textbf{PL/SQL} DB.
+				\item Collaborated closely with stakeholders to gather, define, and prioritize functional and technical requirements.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Languages: Java, Kotlin, Python, Javascript/HTML/CSS, C\#(ASP.NET), SQL, Bash, YAML
+				\item Tools: Git, Linux, AWS(RDS), Azure(AD, Exchange, DB), Gradle, Maven, Jira, CI/CD, Firebase
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
+
