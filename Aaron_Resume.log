@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.11)  11 MAR 2025 22:15
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.11)  11 MAR 2025 22:19
  restricted system commands enabled.
 **Aaron_Resume.tex
 (./Aaron_Resume.tex
@@ -539,7 +539,7 @@ Here is how much of LuaTeX's memory you used:
 <c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/Wi
 ndows/Fonts/timesbd.ttf><c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/times.tt
 f>
-Output written on Aaron_Resume.pdf (1 page, 108509 bytes).
+Output written on Aaron_Resume.pdf (1 page, 108367 bytes).
 
 PDF statistics: 36 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
